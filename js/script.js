@@ -1,2 +1,6 @@
 let lamp = document.getElementById("lamp");
-lamp.src = "img/yellow_lamp.png";
+const button = document.getElementById("switch");
+
+button.addEventListener("click", function () {
+  lamp.src = "img/yellow_lamp.png";
+});
